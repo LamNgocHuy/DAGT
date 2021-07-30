@@ -1,0 +1,9 @@
+VT0009 | Tra lipton | tra | hop | 7 | 8 | 2021 | Ha Tinh | 10 | 33000
+VT0008 | Tra gung | tra | hop | 3 | 8 | 2021 | Ha Tinh | 12 | 30000
+VT0004 | Sunlight | xaphong | chai | 22 | 6 | 2021 | Thanh Hoa | 20 | 12500
+VT0005 | Lightboy | xaphong | chai | 22 | 6 | 2021 | Thanh Hoa | 30 | 17000
+VT0006 | Bo huc | nuocuong | chai | 2 | 7 | 2021 | Da Nang | 36 | 11000
+VT0007 | Revive | nuocuong | chai | 3 | 7 | 2021 | Da Nang | 42 | 9000
+VT0001 | Thep | vtxd | kg | 17 | 5 | 2021 | Nghe An | 70 | 3000
+VT0003 | Da trang | vtxd | vien | 17 | 5 | 2021 | Nghe An | 80 | 3000
+VT0002 | Gach do | vtxd | vien | 17 | 5 | 2021 | Nghe An | 60 | 2000
