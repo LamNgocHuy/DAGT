@@ -222,7 +222,6 @@ void List::insAGoods()
 	printGoods();
 	int index;
 	ins_index:
-	cin.ignore();
 	cout << "-Nhap vi tri can chen: ";
 	cin >> index;
 	index--;
@@ -233,12 +232,12 @@ void List::insAGoods()
 	}
 	cout << setw(20) << right << "Nhap vat tu can chen:\n";
 	h.input();
-	int j = 0;
-	for (int i = 0; i < this->size; i++)
-	{
-		if (index!=i) {
+	int j = 0 ;
+	for (int i = 0; i < this->size; i++) {
+		if (i != index) {
 			b[j] = a[i];
 		} else {
+			index = -1;
 			b[j] = h;
 			i--;
 		}
@@ -246,6 +245,11 @@ void List::insAGoods()
 	}
 	this->size++;
 	writeGoodsToFile(b, this->size);
+	cout << "\n|--- vvv ------------------|";
+	cout << "\n|                          |";
+	cout << "\n|      Chen thanh cong     |";
+	cout << "\n|                          |";
+	cout << "\n|--------------------------|\n";
 }
 
 void List::delAGoods()
